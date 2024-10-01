@@ -1,0 +1,43 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(to Left, white, DarkSalmon);
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul{
+    text-align: end;
+}
+li{
+    display: inline;
+
+}
+a{
+    text-decoration: none;
+
+}
+div{
+    display: flex;
+    justify-content: space-between;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display:block;
+    width: 400px;
+    height: auto;
+
+}
+textarea{
+    width: 100%;
+    resize: none;
+}
+
+input{
+    
+}

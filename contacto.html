@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+    </html>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">INICIO</a></li>
+            <li><a href="./productos.html">PRODUCTOS</a></li>
+            <li><a href="./resenas.html">RESEÑAS</a></li>
+            <li><a href="./contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action="./enviocontacto.html" method="POST" >
+            <fieldset>
+                <legend>Datos Personales:</legend>
+            <div>
+                <label for="nombre">
+                    Nombre:
+                </label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            
+            <div>
+                <label for="apellido">
+                    Apellido:
+                </label>
+                <input type="text" id="apellido" name="apellido">
+            </div>            
+            <div>
+                <label for="mail">
+                    E-MAIL:
+                </label>
+                <input type="email" id="mail" name="mail" required>
+            </div>            
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios:</legend>
+                <textarea name="comentario" id="" rows="10"></textarea>
+            </fieldset>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
