@@ -118,7 +118,6 @@ footer{
 .articuloProducto{
     width: 200px;
     height: 300px;
-    border: 1px blue solid;
     display: flex;
     margin: 5px;
     flex-direction: column;
@@ -129,7 +128,6 @@ footer{
     margin: 5px;
     width: 95%;
     height: 95%;
-    border: 1px solid red;
 
 }
 .tituloProducto{
