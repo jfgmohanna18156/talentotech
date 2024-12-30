@@ -128,11 +128,16 @@ footer{
     overflow: hidden;
     width: 95%;
     height: 95%;
+
 }
 .fotoProducto img{
     margin: 5px;
-    width: 95%;
-    height: 95%;
+    /*width: 95%;
+    height: 95%;*/
+
+    max-height: 100%;
+    width: auto;
+    align-self: center;
 
 }
 .tituloProducto{
