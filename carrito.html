@@ -60,13 +60,18 @@
         <div class ="pagoTotal">
             <p>Total A Pagar $<span id="pagoTotal"></span></p>
             <p><input type="button" value="Pagar" name="pagar"></p>
-            <p><input type="button" value="Vaciar carrito" name="vaciarCarro"></p>
+            <p><input type="button" value="Vaciar carrito" name="vaciarCarro" onclick="vaciar_carro()"></p>
         </div>
 
 
 
 
 <script>
+    function vaciar_carro(){
+        sessionStorage.clear();
+        location.reload();
+    }
+
     class ArticuloProducto{
         constructor(data, cantidad){
             this.nombre = data.nombre
