@@ -1,0 +1,696 @@
+{
+  "productos": [
+    {
+      "nombre": "Mesa de Comedor de Madera Maciza",
+      "nro_de_orden": 1,
+      "id_unico": "MCM001",
+      "imagen": "",
+      "precio": 10,
+      "medidas": "180x90x75 cm",
+      "descripcion": "Mesa de comedor robusta con acabado natural. Ideal para 6-8 personas."
+    },
+    {
+      "nombre": "Silla de Comedor Tapizada en Lino",
+      "nro_de_orden": 2,
+      "id_unico": "SCL002",
+      "imagen": "",
+      "precio": 20,
+      "medidas": "45x50x90 cm",
+      "descripcion": "Silla de comedor cómoda con tapizado en lino color beige y estructura de madera."
+    },
+    {
+       "nombre": "Sillón de Lectura de Cuero",
+      "nro_de_orden": 3,
+      "id_unico": "SLC003",
+      "imagen": "",
+      "precio": 30,
+      "medidas": "80x85x100 cm",
+      "descripcion": "Sillón elegante tapizado en cuero marrón, perfecto para relajarse y leer."
+     },
+   {
+      "nombre": "Estantería de Madera de Roble",
+      "nro_de_orden": 4,
+      "id_unico": "EMR004",
+      "imagen": "",
+      "precio": 180000,
+      "medidas": "120x30x180 cm",
+      "descripcion": "Estantería de roble con 5 estantes, ideal para libros y decoración."
+    },
+    {
+      "nombre": "Cama de Madera con Cabecero Tapizado",
+      "nro_de_orden": 5,
+      "id_unico": "CMC005",
+      "imagen": "",
+      "precio": 450000,
+      "medidas": "160x200 cm",
+      "descripcion": "Cama doble con estructura de madera y cabecero tapizado en tela gris."
+    },
+   {
+      "nombre": "Mesa Auxiliar de Madera con Tapa de Mármol",
+      "nro_de_orden": 6,
+      "id_unico": "MAM006",
+      "imagen": "",
+      "precio": 95000,
+      "medidas": "50x50x55 cm",
+      "descripcion": "Mesa auxiliar elegante con base de madera y tapa de mármol blanco."
+    },
+    {
+      "nombre": "Banco de Madera para Interior",
+      "nro_de_orden": 7,
+      "id_unico": "BMB007",
+      "imagen": "",
+      "precio": 120000,
+      "medidas": "120x40x45 cm",
+       "descripcion": "Banco de madera maciza con acabado natural, ideal para recibidores o pies de cama."
+    },
+     {
+      "nombre": "Escritorio de Madera con Cajones",
+      "nro_de_orden": 8,
+      "id_unico": "EMC008",
+      "imagen": "",
+      "precio": 280000,
+      "medidas": "140x70x75 cm",
+      "descripcion": "Escritorio de madera con tres cajones para almacenamiento y trabajo."
+    },
+    {
+      "nombre": "Cómoda de Madera con Espejo",
+      "nro_de_orden": 9,
+      "id_unico": "CME009",
+      "imagen": "",
+      "precio": 320000,
+      "medidas": "100x50x150 cm",
+      "descripcion": "Cómoda de madera con 6 cajones y espejo ovalado."
+    },
+   {
+      "nombre": "Silla Mecedora de Madera",
+      "nro_de_orden": 10,
+      "id_unico": "SMM010",
+       "imagen": "",
+      "precio": 160000,
+      "medidas": "60x80x100 cm",
+      "descripcion": "Silla mecedora clásica de madera con diseño ergonómico."
+    },
+     {
+      "nombre": "Mesa de Centro de Madera y Cristal",
+      "nro_de_orden": 11,
+      "id_unico": "MCC011",
+      "imagen": "",
+      "precio": 150000,
+      "medidas": "100x60x40 cm",
+      "descripcion": "Mesa de centro con estructura de madera y superficie de cristal templado."
+    },
+    {
+      "nombre": "Silla de Comedor Tapizada en Terciopelo",
+      "nro_de_orden": 12,
+      "id_unico": "SCT012",
+      "imagen": "",
+      "precio": 90000,
+      "medidas": "45x50x90 cm",
+      "descripcion": "Silla de comedor elegante con tapizado en terciopelo azul."
+    },
+ {
+      "nombre": "Sillón Individual de Lino",
+      "nro_de_orden": 13,
+      "id_unico": "SIL013",
+      "imagen": "",
+      "precio": 180000,
+      "medidas": "75x80x90 cm",
+       "descripcion": "Sillón individual cómodo tapizado en lino gris claro."
+    },
+    {
+      "nombre": "Mueble de TV de Madera",
+      "nro_de_orden": 14,
+       "id_unico": "MTV014",
+       "imagen": "",
+      "precio": 250000,
+      "medidas": "160x45x50 cm",
+      "descripcion": "Mueble de TV con estantes y cajones para almacenamiento."
+    },
+    {
+     "nombre": "Perchero de Pared de Madera",
+      "nro_de_orden": 15,
+      "id_unico": "PPM015",
+      "imagen": "",
+      "precio": 45000,
+      "medidas": "80x10x20 cm",
+      "descripcion": "Perchero de pared con ganchos de metal para abrigos y sombreros."
+    },
+    {
+      "nombre": "Lámpara de Pie con Base de Madera",
+      "nro_de_orden": 16,
+      "id_unico": "LPM016",
+      "imagen": "",
+      "precio": 70000,
+      "medidas": "160 cm de altura",
+      "descripcion": "Lámpara de pie con base de madera y pantalla de tela."
+    },
+      {
+      "nombre": "Mesa Ratona de Madera de Nogal",
+      "nro_de_orden": 17,
+       "id_unico": "MRN017",
+       "imagen": "",
+      "precio": 130000,
+      "medidas": "90x50x40 cm",
+      "descripcion": "Mesa ratona elegante de madera de nogal con acabado mate."
+    },
+    {
+      "nombre": "Cama con Cajones Inferiores de Madera",
+      "nro_de_orden": 18,
+      "id_unico": "CCI018",
+      "imagen": "",
+      "precio": 520000,
+      "medidas": "160x200 cm",
+      "descripcion": "Cama doble con estructura de madera y cajones inferiores para almacenamiento."
+    },
+{
+      "nombre": "Silla de Escritorio de Madera",
+      "nro_de_orden": 19,
+      "id_unico": "SEM019",
+      "imagen": "",
+       "precio": 110000,
+      "medidas": "55x60x95 cm",
+      "descripcion": "Silla de escritorio ergonómica de madera con respaldo ajustable."
+   },
+     {
+      "nombre": "Aparador de Madera con Puertas de Cristal",
+      "nro_de_orden": 20,
+      "id_unico": "APM020",
+      "imagen": "",
+      "precio": 380000,
+      "medidas": "150x40x80 cm",
+       "descripcion":"Aparador de madera con puertas de cristal y estantes interiores."
+    },
+    {
+      "nombre": "Mesa de Comedor Redonda de Madera",
+       "nro_de_orden": 21,
+      "id_unico": "MCR021",
+      "imagen": "",
+      "precio": 300000,
+       "medidas": "120 cm de diámetro",
+      "descripcion": "Mesa de comedor redonda de madera maciza con capacidad para 4 personas."
+    },
+    {
+      "nombre": "Silla de Comedor de Madera de Haya",
+      "nro_de_orden": 22,
+      "id_unico": "SCH022",
+      "imagen": "",
+      "precio": 75000,
+      "medidas":"45x50x85 cm",
+      "descripcion":"Silla de comedor de madera de haya con diseño clásico y robusto."
+    },
+    {
+      "nombre": "Sillón Reclinable de Cuero",
+      "nro_de_orden": 23,
+      "id_unico": "SRC023",
+      "imagen": "",
+      "precio": 280000,
+      "medidas": "90x95x105 cm",
+      "descripcion": "Sillón reclinable cómodo tapizado en cuero negro."
+    },
+    {
+      "nombre": "Estantería Modular de Madera",
+      "nro_de_orden": 24,
+      "id_unico": "EMM024",
+      "imagen": "",
+      "precio": 220000,
+      "medidas": "150x30x200 cm",
+      "descripcion": "Estantería modular de madera con estantes ajustables."
+    },
+    {
+      "nombre":"Cama Individual de Madera con Cabecero",
+       "nro_de_orden": 25,
+      "id_unico":"CIM025",
+      "imagen":"",
+      "precio": 350000,
+       "medidas": "90x200 cm",
+      "descripcion":"Cama individual con estructura de madera y cabecero simple."
+    },
+    {
+      "nombre":"Mesa de Centro Elevable de Madera",
+      "nro_de_orden": 26,
+       "id_unico":"MCE026",
+       "imagen":"",
+      "precio":180000,
+      "medidas":"120x70x45/60 cm",
+       "descripcion":"Mesa de centro elevable con espacio de almacenamiento interior."
+    },
+     {
+       "nombre":"Banco de Madera para Exterior",
+       "nro_de_orden":27,
+       "id_unico":"BME027",
+       "imagen":"",
+       "precio":140000,
+        "medidas": "150x50x45 cm",
+      "descripcion":"Banco de madera tratada para uso exterior, resistente a la intemperie."
+     },
+     {
+      "nombre": "Escritorio Esquinero de Madera",
+      "nro_de_orden": 28,
+      "id_unico": "EEM028",
+      "imagen": "",
+      "precio": 320000,
+       "medidas": "150x120x75 cm",
+      "descripcion": "Escritorio esquinero con amplio espacio de trabajo y estantes laterales."
+   },
+    {
+      "nombre": "Cómoda Alta de Madera con Cajones",
+      "nro_de_orden": 29,
+      "id_unico": "CAM029",
+      "imagen": "",
+      "precio": 290000,
+       "medidas": "90x45x120 cm",
+       "descripcion": "Cómoda alta de madera con 6 cajones y diseño minimalista."
+   },
+   {
+     "nombre": "Silla Colgante de Madera",
+      "nro_de_orden": 30,
+     "id_unico": "SCM030",
+     "imagen": "",
+     "precio": 170000,
+      "medidas": "80x80x100 cm",
+      "descripcion": "Silla colgante de madera con cojín incluido, ideal para relajarse."
+    },
+    {
+      "nombre": "Mesa de Comedor Extensible de Madera",
+      "nro_de_orden": 31,
+      "id_unico": "MCX031",
+      "imagen": "",
+      "precio": 400000,
+      "medidas": "160/220x90x75 cm",
+      "descripcion": "Mesa de comedor extensible para 6-10 personas, con acabado natural."
+    },
+     {
+       "nombre": "Silla de Comedor de Madera con Respaldo Alto",
+      "nro_de_orden": 32,
+      "id_unico": "SRA032",
+      "imagen":"",
+      "precio": 80000,
+      "medidas":"45x50x100 cm",
+      "descripcion":"Silla de comedor de madera con respaldo alto y diseño clásico."
+    },
+     {
+      "nombre":"Sillón de Relax de Madera y Tela",
+      "nro_de_orden":33,
+      "id_unico":"SRT033",
+      "imagen":"",
+      "precio":200000,
+       "medidas": "85x90x100 cm",
+      "descripcion":"Sillón de relax cómodo con estructura de madera y tapizado en tela."
+    },
+  {
+      "nombre": "Estantería de Pared de Madera",
+       "nro_de_orden": 34,
+       "id_unico": "EPP034",
+       "imagen": "",
+      "precio": 120000,
+      "medidas": "100x25x20 cm",
+      "descripcion":"Estantería de pared con tres niveles, ideal para libros y decoración."
+     },
+     {
+      "nombre": "Cama Nido de Madera",
+       "nro_de_orden": 35,
+       "id_unico":"CNM035",
+      "imagen":"",
+      "precio": 480000,
+      "medidas": "90/180x200 cm",
+      "descripcion": "Cama nido con estructura de madera y cama inferior deslizable."
+     },
+ {
+      "nombre":"Mesa Auxiliar Redonda de Madera",
+      "nro_de_orden":36,
+      "id_unico":"MAR036",
+      "imagen":"",
+      "precio": 80000,
+      "medidas": "60 cm de diámetro, 60cm alto",
+      "descripcion":"Mesa auxiliar redonda con base de madera y diseño minimalista."
+ },
+    {
+      "nombre": "Banco de Madera con Respaldo",
+      "nro_de_orden": 37,
+      "id_unico":"BMR037",
+      "imagen": "",
+       "precio": 160000,
+      "medidas": "130x60x80 cm",
+      "descripcion": "Banco de madera con respaldo y diseño ergonómico."
+    },
+     {
+      "nombre": "Escritorio con Cajonera de Madera",
+      "nro_de_orden": 38,
+       "id_unico":"ECM038",
+      "imagen": "",
+      "precio": 300000,
+       "medidas": "150x70x75 cm",
+      "descripcion": "Escritorio con cajonera lateral de madera para almacenamiento."
+   },
+    {
+      "nombre":"Cómoda de Madera con 4 Cajones",
+      "nro_de_orden":39,
+      "id_unico":"CMC039",
+      "imagen":"",
+      "precio":250000,
+      "medidas": "80x40x90 cm",
+      "descripcion": "Cómoda de madera con cuatro cajones y diseño funcional."
+    },
+     {
+      "nombre": "Silla Giratoria de Madera",
+       "nro_de_orden": 40,
+      "id_unico": "SGM040",
+      "imagen": "",
+      "precio": 130000,
+      "medidas": "60x65x90 cm",
+      "descripcion":"Silla giratoria con base de madera y asiento ergonómico."
+    },
+    {
+      "nombre":"Mesa de Comedor Ovalada de Madera",
+      "nro_de_orden":41,
+      "id_unico":"MCO041",
+      "imagen":"",
+      "precio":380000,
+      "medidas":"180x100x75 cm",
+       "descripcion": "Mesa de comedor ovalada de madera maciza con capacidad para 6-8 personas."
+    },
+     {
+      "nombre":"Silla de Comedor de Madera Rústica",
+       "nro_de_orden":42,
+       "id_unico":"SCR042",
+      "imagen":"",
+      "precio": 70000,
+      "medidas":"45x50x85 cm",
+       "descripcion": "Silla de comedor de madera con diseño rústico y acabado envejecido."
+    },
+    {
+      "nombre":"Sillón de Lectura con Reposapiés",
+      "nro_de_orden":43,
+       "id_unico":"SLR043",
+      "imagen":"",
+      "precio":250000,
+       "medidas": "80x85x100 cm (sillón), 50x40x40 cm (reposapiés)",
+       "descripcion": "Sillón de lectura cómodo con reposapiés a juego, tapizado en tela."
+    },
+    {
+      "nombre":"Estantería Esquinera de Madera",
+      "nro_de_orden":44,
+      "id_unico":"EEM044",
+      "imagen":"",
+      "precio": 160000,
+      "medidas":"40x40x180 cm",
+      "descripcion": "Estantería esquinera de madera con estantes triangulares."
+    },
+    {
+      "nombre":"Cama Matrimonial de Madera con Plataforma",
+       "nro_de_orden": 45,
+       "id_unico":"CMP045",
+       "imagen": "",
+       "precio": 550000,
+      "medidas": "160x200 cm",
+      "descripcion": "Cama matrimonial de madera con plataforma y cabecero minimalista."
+    },
+     {
+      "nombre":"Mesa de Centro de Madera Maciza",
+       "nro_de_orden": 46,
+      "id_unico":"MCM046",
+      "imagen":"",
+      "precio": 140000,
+       "medidas":"110x60x40 cm",
+       "descripcion":"Mesa de centro de madera maciza con diseño sencillo y funcional."
+    },
+    {
+      "nombre": "Banco de Madera Tapizado",
+       "nro_de_orden": 47,
+       "id_unico":"BMT047",
+       "imagen":"",
+      "precio": 180000,
+      "medidas": "120x40x45 cm",
+      "descripcion": "Banco de madera con asiento tapizado en tela suave."
+   },
+     {
+      "nombre": "Escritorio Flotante de Madera",
+      "nro_de_orden": 48,
+      "id_unico": "EFM048",
+      "imagen": "",
+      "precio": 240000,
+      "medidas": "120x60x15 cm",
+      "descripcion":"Escritorio flotante de madera para espacios pequeños."
+    },
+    {
+      "nombre":"Cómoda de Madera con Espejo Art Decó",
+       "nro_de_orden": 49,
+       "id_unico":"CMA049",
+      "imagen":"",
+      "precio":360000,
+      "medidas":"110x50x160 cm",
+      "descripcion":"Cómoda de madera con espejo art decó y detalles tallados."
+     },
+    {
+      "nombre":"Silla de Oficina de Madera y Cuero",
+       "nro_de_orden":50,
+      "id_unico":"SOC050",
+      "imagen":"",
+      "precio":190000,
+      "medidas":"60x65x95/105 cm",
+      "descripcion":"Silla de oficina ergonómica con estructura de madera y tapizado en cuero."
+    },
+    {
+      "nombre": "Mesa de Comedor de Roble",
+      "nro_de_orden": 51,
+      "id_unico": "MCR051",
+      "imagen": "",
+      "precio": 420000,
+      "medidas": "190x95x75 cm",
+      "descripcion": "Mesa de comedor robusta de roble con acabado natural."
+    },
+    {
+      "nombre": "Silla de Comedor Tapizada en Gris Claro",
+      "nro_de_orden": 52,
+      "id_unico": "SGC052",
+      "imagen": "",
+      "precio": 85000,
+      "medidas": "45x50x90 cm",
+      "descripcion": "Silla de comedor cómoda con tapizado en tela gris claro y estructura de madera."
+    },
+    {
+        "nombre": "Sillón de Lectura de Cuero Negro",
+        "nro_de_orden": 53,
+        "id_unico": "SLN053",
+        "imagen": "",
+        "precio": 230000,
+        "medidas": "80x85x100 cm",
+        "descripcion": "Sillón elegante tapizado en cuero negro, perfecto para relajarse y leer."
+     },
+    {
+      "nombre": "Estantería de Madera de Pino",
+      "nro_de_orden": 54,
+      "id_unico": "EMP054",
+      "imagen": "",
+      "precio": 170000,
+      "medidas": "120x30x180 cm",
+      "descripcion": "Estantería de pino con 5 estantes, ideal para libros y decoración."
+    },
+    {
+      "nombre": "Cama de Madera de Cedro con Cabecero",
+      "nro_de_orden": 55,
+      "id_unico": "CMC055",
+      "imagen": "",
+      "precio": 480000,
+      "medidas": "160x200 cm",
+      "descripcion": "Cama doble con estructura de cedro y cabecero de madera."
+    },
+    {
+       "nombre": "Mesa Auxiliar de Madera con Tapa de Vidrio",
+      "nro_de_orden": 56,
+       "id_unico": "MAV056",
+      "imagen": "",
+      "precio": 100000,
+      "medidas": "50x50x55 cm",
+       "descripcion": "Mesa auxiliar elegante con base de madera y tapa de vidrio templado."
+    },
+    {
+      "nombre": "Banco de Madera para Recibidor",
+       "nro_de_orden": 57,
+      "id_unico": "BMR057",
+      "imagen": "",
+      "precio": 130000,
+      "medidas": "120x40x45 cm",
+      "descripcion": "Banco de madera maciza con acabado natural, ideal para recibidores."
+    },
+    {
+      "nombre": "Escritorio de Madera con Cajones Laterales",
+       "nro_de_orden": 58,
+      "id_unico": "ECL058",
+      "imagen": "",
+      "precio": 290000,
+      "medidas": "140x70x75 cm",
+      "descripcion": "Escritorio de madera con cajones laterales para almacenamiento y trabajo."
+    },
+     {
+       "nombre":"Cómoda de Madera con Espejo Rectangular",
+       "nro_de_orden": 59,
+        "id_unico":"CMR059",
+       "imagen":"",
+       "precio": 330000,
+        "medidas": "100x50x150 cm",
+       "descripcion": "Cómoda de madera con 6 cajones y espejo rectangular."
+   },
+   {
+     "nombre": "Silla Mecedora de Madera con Tapizado",
+      "nro_de_orden": 60,
+      "id_unico": "SMT060",
+      "imagen": "",
+       "precio": 170000,
+      "medidas": "60x80x100 cm",
+      "descripcion": "Silla mecedora clásica de madera con tapizado en tela."
+   },
+    {
+      "nombre": "Mesa de Centro de Madera y Metal",
+      "nro_de_orden": 61,
+      "id_unico": "MCM061",
+      "imagen": "",
+      "precio": 160000,
+      "medidas": "100x60x40 cm",
+      "descripcion": "Mesa de centro con estructura de madera y patas de metal."
+    },
+    {
+      "nombre": "Silla de Comedor Tapizada en Verde Oliva",
+      "nro_de_orden": 62,
+      "id_unico": "SVO062",
+       "imagen": "",
+      "precio": 95000,
+      "medidas": "45x50x90 cm",
+      "descripcion": "Silla de comedor elegante con tapizado en terciopelo verde oliva."
+    },
+     {
+      "nombre": "Sillón Individual de Lino Beige",
+       "nro_de_orden": 63,
+       "id_unico": "SIL063",
+       "imagen": "",
+       "precio": 190000,
+      "medidas":"75x80x90 cm",
+      "descripcion": "Sillón individual cómodo tapizado en lino beige."
+    },
+    {
+      "nombre":"Mueble de TV de Madera Oscura",
+       "nro_de_orden": 64,
+       "id_unico":"MTO064",
+       "imagen":"",
+       "precio": 260000,
+       "medidas":"160x45x50 cm",
+       "descripcion": "Mueble de TV con estantes y cajones para almacenamiento en madera oscura."
+    },
+    {
+      "nombre": "Perchero de Pared de Madera y Metal",
+      "nro_de_orden": 65,
+      "id_unico":"PPM065",
+      "imagen": "",
+       "precio": 50000,
+      "medidas": "80x10x20 cm",
+      "descripcion": "Perchero de pared con ganchos de metal y estructura de madera."
+    },
+    {
+       "nombre": "Lámpara de Pie con Base de Madera Clara",
+      "nro_de_orden": 66,
+      "id_unico": "LPC066",
+      "imagen": "",
+       "precio": 75000,
+      "medidas": "160 cm de altura",
+      "descripcion": "Lámpara de pie con base de madera clara y pantalla de tela."
+    },
+     {
+      "nombre": "Mesa Ratona de Madera de Cerezo",
+      "nro_de_orden": 67,
+       "id_unico": "MRC067",
+      "imagen": "",
+      "precio": 140000,
+       "medidas": "90x50x40 cm",
+      "descripcion": "Mesa ratona elegante de madera de cerezo con acabado brillante."
+    },
+    {
+      "nombre": "Cama con Cajones Laterales de Madera",
+       "nro_de_orden": 68,
+       "id_unico": "CCL068",
+       "imagen": "",
+      "precio": 530000,
+      "medidas": "160x200 cm",
+      "descripcion": "Cama doble con estructura de madera y cajones laterales para almacenamiento."
+    },
+    {
+     "nombre": "Silla de Escritorio de Madera con Tapizado",
+       "nro_de_orden": 69,
+       "id_unico":"SET069",
+       "imagen":"",
+       "precio":120000,
+       "medidas":"55x60x95 cm",
+       "descripcion":"Silla de escritorio ergonómica de madera con respaldo tapizado."
+    },
+    {
+      "nombre": "Aparador de Madera con Puertas Corredizas",
+       "nro_de_orden": 70,
+       "id_unico": "APC070",
+       "imagen": "",
+      "precio": 390000,
+       "medidas": "150x40x80 cm",
+      "descripcion": "Aparador de madera con puertas corredizas y estantes interiores."
+    },
+ {
+      "nombre":"Mesa de Comedor Redonda de Madera Blanca",
+       "nro_de_orden":71,
+       "id_unico":"MCB071",
+       "imagen":"",
+       "precio": 320000,
+       "medidas": "120 cm de diámetro",
+       "descripcion": "Mesa de comedor redonda de madera blanca con capacidad para 4 personas."
+    },
+    {
+       "nombre":"Silla de Comedor de Madera de Nogal",
+      "nro_de_orden": 72,
+      "id_unico": "SCN072",
+      "imagen": "",
+      "precio": 78000,
+       "medidas":"45x50x85 cm",
+      "descripcion": "Silla de comedor de madera de nogal con diseño clásico y robusto."
+    },
+ {
+       "nombre": "Sillón Reclinable de Cuero Marrón",
+      "nro_de_orden": 73,
+      "id_unico": "SRM073",
+      "imagen": "",
+      "precio": 290000,
+      "medidas":"90x95x105 cm",
+      "descripcion":"Sillón reclinable cómodo tapizado en cuero marrón."
+    },
+{
+      "nombre":"Estantería Modular de Madera con Estantes Blancos",
+       "nro_de_orden":74,
+      "id_unico":"EME074",
+       "imagen":"",
+       "precio":230000,
+      "medidas": "150x30x200 cm",
+       "descripcion": "Estantería modular de madera con estantes ajustables en color blanco."
+   },
+   {
+     "nombre": "Cama Individual de Madera con Cabecero Alto",
+       "nro_de_orden": 75,
+       "id_unico": "CIA075",
+       "imagen":"",
+       "precio": 360000,
+        "medidas":"90x200 cm",
+       "descripcion": "Cama individual con estructura de madera y cabecero alto."
+    },
+    {
+       "nombre":"Mesa de Centro Elevable de Madera Oscura",
+       "nro_de_orden":76,
+       "id_unico":"MEO076",
+       "imagen":"",
+       "precio":190000,
+       "medidas": "120x70x45/60 cm",
+       "descripcion":"Mesa de centro elevable con espacio de almacenamiento interior en madera oscura."
+    },
+     {
+      "nombre": "Banco de Madera para Exterior con Respaldo",
+       "nro_de_orden": 77,
+      "id_unico":"BER077",
+      "imagen":"",
+       "precio":150000,
+        "medidas":"150x50x45 cm",
+       "descripcion":"Banco de madera tratada para uso exterior, con respaldo y resistente a la intemperie."
+    }]
+}

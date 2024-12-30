@@ -1,6 +1,6 @@
 
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css');
-
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 body{
     background: rgb(2,0,36);
     background: linear-gradient(to Left, white, goldenrod);
@@ -124,6 +124,11 @@ footer{
     align-items: start;
     
 }
+.fotoProducto{
+    overflow: hidden;
+    width: 95%;
+    height: 95%;
+}
 .fotoProducto img{
     margin: 5px;
     width: 95%;
@@ -133,12 +138,14 @@ footer{
 .tituloProducto{
     padding: 5px;
     width: 188px;
-    font-size: 2rem;
+    font-size: 1rem;
+    font-weight: 900;
 
 }
 .descripcionProducto{
     width: 188px;
     padding: 5px;
+    font-size:  0.8em;
 
 }
 .precioProducto{

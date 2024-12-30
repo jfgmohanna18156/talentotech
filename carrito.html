@@ -31,8 +31,8 @@
                 <li><a href="./productos.html">PRODUCTOS</a></li>
                 <li><a href="./resena.html">RESEÑAS</a></li>
                 <li><a href="./contacto.html">CONTACTO</a></li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
                 <li><a href="./carrito.html"><i class="fi fi-rr-shopping-cart-add" name ="carrito"></i></a></li>
-
                 
             </ul>
         </nav>
@@ -57,10 +57,18 @@
             
           
         </div>
+        <div class ="pagoTotal">
+            <p>Total A Pagar $<span id="pagoTotal"></span></p>
+            <p><input type="button" value="Pagar" name="pagar"></p>
+            <p><input type="button" value="Vaciar carrito" name="vaciarCarro"></p>
+        </div>
+
+
+
 
 <script>
     class ArticuloProducto{
-        constructor(data){
+        constructor(data, cantidad){
             this.nombre = data.nombre
             this.nro_de_orden = data.nro_de_orden;
             this.id_unico = data.id_unico;
@@ -68,6 +76,7 @@
             this.precio = data.precio;
             this.medidas = data.medidas;
             this.descripcion = data.descripcion;
+            this.cantidad = cantidad;
         }
         
         crea_html(){
@@ -77,9 +86,9 @@
             let nombre = '<div class="tituloProducto">'+this.nombre+'</div>';
             let descripcion = '<div class="descripcionProducto">'+this.descripcion+'</div>';
             let precio = '<div class="precioProducto">'+this.precio+'</div>';
-            let agregar = '<div class="areaboton"><input type="button" name="agregar_producto" value ="agregar" data-id_producto="'+this.id_unico+'" onclick="nuevoAgregarProducto(this)"></div>';
+            let cantidad  = '<div class="areacantidad"><input type="number" name="cantidad" value ="'+this.cantidad+'" data-id_producto="'+this.id_unico+'" onblur="CambiarCantidad(this)" min="0" max="1000"></div>';
 
-            let texto = foto+nombre+descripcion+precio+agregar;
+            let texto = foto+nombre+descripcion+precio+cantidad;
             articulo.innerHTML= texto;
             return articulo;
         }
@@ -131,29 +140,81 @@ function nuevoAgregarProducto(elemento){
         jsonProductos[nuevoProducto] = 1;
     }
     sessionStorage.productos = JSON.stringify(jsonProductos);
+
 }
 
-function modificarCantidades(id, cantidad){
-    let cadena = sessionStorage.productos;
-    let id_producto = id;
-    let cantidad_producto = cantidad;
 
-    if(cadena ==null){
-        sessionStorage.setItem("productos", "{}");
-        cadena = sessionStorage.productos;
+
+function modificarCantidades(id, cantidad) {
+    try {
+        let cadena = sessionStorage.productos;
+        let id_producto = id;
+        let cantidad_producto = Number(cantidad);
+
+        if (isNaN(cantidad_producto)) {
+            throw new Error("La cantidad debe ser un número válido");
+        }
+
+        if(cadena == null) {
+            sessionStorage.setItem("productos", "{}");
+            cadena = sessionStorage.productos;
+        }
+
+        let jsonProductos = JSON.parse(cadena);
+        jsonProductos[id_producto] = cantidad_producto;
+        sessionStorage.productos = JSON.stringify(jsonProductos);
+        sumarTotal();
+        
+    } catch (error) {
+        console.error("Error al modificar cantidades:", error);
     }
-
-    jsonProductos = JSON.parse(cadena);
-
-    jsonProductos[id_producto]=cantidad_producto;
-
-    sessionStorage.productos = JSON.stringify(jsonProductos);
-
 }
 
+function CambiarCantidad(elemento){
+    let id_unico = elemento.dataset.id_producto;
+    let cantidad = elemento.value;
+    modificarCantidades(id_unico, cantidad);
+}
+
+function actualizarTotal(){
+
+    let area_total = document.getElementById("pagoTotal");
+    let nuevovalor = sessionStorage.getItem("total");
+    area_total.innerHTML = nuevovalor;
+
+}
+async function sumarTotal() {
+    try {
+        let cadena = sessionStorage.productos;
+        if(cadena == null) {
+            sessionStorage.setItem("productos", "{}");
+            cadena = sessionStorage.productos;
+        }
+        
+        let arrayProductos = JSON.parse(cadena);
+        const response = await fetch("./productos/productos.json");
+        const data = await response.json();
+        
+        let totalSuma = 0;
+        const arrayClaves = Object.keys(arrayProductos);
+        
+        arrayClaves.forEach(clave => {
+            const producto = data.productos.find(p => p.id_unico === clave);
+            if (producto) {
+                totalSuma += producto.precio * arrayProductos[clave];
+            }
+        });
+        
+        sessionStorage.setItem("total", totalSuma);
+        actualizarTotal(); 
+        
+    } catch (error) {
+        console.error("Error al calcular el total:", error);
+    }
+}
 //
-    function crea_articulos(data){
-        divArticle = new ArticuloProducto(data);
+    function crea_articulos(data, cantidad){
+        divArticle = new ArticuloProducto(data, cantidad);
         divPadre = document.getElementById("areaproductos");
         divPadre.append(divArticle.crea_html())
     }
@@ -166,12 +227,23 @@ function modificarCantidades(id, cantidad){
         .then(data=>{
             //console.log(data.productos)
             data.productos.forEach(producto => {
-                //console.log(producto);
-                crea_articulos(producto);
+
+                cadena = sessionStorage.productos;
+                if(cadena ==null){
+                    sessionStorage.setItem("productos", "{}");
+                    cadena = sessionStorage.productos;
+                }
+
+                jsonProductos = JSON.parse(cadena);
+
+                if(producto.id_unico in jsonProductos && jsonProductos[producto.id_unico]!=0){
+                    crea_articulos(producto, jsonProductos[producto.id_unico]);
+                }
+
             });
         })
 //hago la solicitud de la pagina
-
+sumarTotal();
 
 
     
